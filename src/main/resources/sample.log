@@ -1,0 +1,25 @@
+2025-09-08 17:01:23 INFO  [main] com.example.App - Application started
+2025-09-08 17:01:25 DEBUG [worker-1] com.example.service.UserService - Fetching user with id=42
+2025-09-08 17:01:25 INFO  [worker-1] com.example.service.UserService - User fetched: id=42, name="Alice"
+2025-09-08 17:01:30 WARN  [worker-2] com.example.cache.CacheManager - Cache miss for key=session:xyz123
+2025-09-08 17:01:32 ERROR [worker-3] com.example.db.DbClient - Database connection timeout
+2025-09-08 17:01:35 INFO  [main] com.example.scheduler.JobRunner - Scheduled job started: cleanupTask
+2025-09-08 17:01:37 INFO  [main] com.example.scheduler.JobRunner - Scheduled job finished in 2s
+2025-09-08 17:01:40 DEBUG [worker-4] com.example.service.OrderService - Creating order id=1001
+2025-09-08 17:01:41 INFO  [worker-4] com.example.service.OrderService - Order created successfully
+2025-09-08 17:01:43 INFO  [worker-5] com.example.api.ApiController - GET /api/orders/1001 returned 200 OK
+
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in
+2025-09-08 17:02:00 INFO User logged in v2
